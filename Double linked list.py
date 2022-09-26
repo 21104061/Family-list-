@@ -1,21 +1,21 @@
 Class node:
   def __init__ (self,data):
     self.data=data
-    self.next=none
-    self.prev=none
+    self.next=None
+    self.prev=None
  
 class dll:
   def __init__ (self):
     self.head=none
     
   def display(self):
-    if self.head is none:
+    if self.head is None:
       print("Empty list")
     else:
-      self.head=x
-      while x:
-        print(x.data, "-->" , end=' ')
-        x=x.next
+      self.head=temp
+      while temp:
+        print(temp.data, "-->" , end=' ')
+        temp=temp.next
 
 L=dll()
   n1=node(Amandeep Singh,39)
@@ -28,6 +28,6 @@ n2.next=n3
 n3.prev=n2
 n4=node(khushpreet kaur,16)
 n4.prev=n3
- n3.next=n4
+n3.next=n4
 L.display()
  
