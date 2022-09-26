@@ -6,7 +6,7 @@ Class node:
  
 class dll:
   def __init__ (self):
-    self.head=none
+    self.head=None
     
   def display(self):
     if self.head is None:
@@ -26,7 +26,7 @@ n2.prev=n1
 n3=node(Tanveer Singh,19)
 n2.next=n3
 n3.prev=n2
-n4=node(khushpreet kaur,16)
+n4=node(Khushpreet Kaur,16)
 n4.prev=n3
 n3.next=n4
 L.display()
